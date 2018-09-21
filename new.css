@@ -30,10 +30,10 @@ body {
     margin-right:0.3rem;
     font-family:'Oswald' , sans-serif;
     font-style: Light;
-    font-size:  15px;
+    font-size:  17px;
     line-height:30px;
     color:#6C6B6B !important;
-    letter-spacing: 10%;
+    letter-spacing: 1px;
     /* background: red; */
     width:7.58rem;
     text-align:center; 
@@ -103,7 +103,7 @@ span .img-profile{
 .icon-links{
     display: inline;
     /* flex:0 0 34%; */
-    margin-top:10px;
+    margin-top:16px;
     font-size:11px;
     padding:0;
     color:#EB3349;
@@ -118,10 +118,10 @@ span .img-profile{
     opacity:0.6;
   }
   .icons{
-      width:45%;
+      width:65%;
   }
   .first-icon{
-      margin-left:3px;
+      margin-left:15px;
   }
 
 .contents{
@@ -132,20 +132,21 @@ span .img-profile{
 
 #content1{
     font-family: 'Dosis', 'sans-serif';
-    font-style: Semi-Bold;
-    font-size: 30px;
+    font-style: 'SemiBold';
+    font-size: 35px;
     color: #EB3349;
     line-height: 61px;
     letter-spacing: 4px;
+    font-weight: 700;
     flex:1;
     margin-top:1rem;
 }
 
 #content2{
     font-family: 'Oswald', 'sans-serif';
-    font-style: Light;
-    font-size:  15px;
-    line-height: 30px;
+    font-style: 'Light';
+    font-size:  18px;
+    line-height: 37px;
     color:#373030;
     flex:1;
     letter-spacing: 1px;
@@ -154,8 +155,8 @@ span .img-profile{
 #content3{
     font-family: 'Oswald', sans-serif;
     font-style: Light;
-    font-size:  15px;
-    line-height: 30px;
+    font-size:  18px;
+    line-height: 37px;
     margin-top:5px;
     color:#373030;
     flex:1;
@@ -171,7 +172,7 @@ footer{
 }
 
 footer div > p{
-    font-family: 'PT', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size:  10px;
     line-height: 18px;
     color:#6C6B6B !important;
@@ -243,6 +244,7 @@ footer div p span a:hover{
     
     #content1{
         margin-top:1rem;
+        font-size: 25px;
     } 
     
     #content2, #content3{

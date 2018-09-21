@@ -24,7 +24,7 @@ body {
     margin-right:0.3rem;
     font-family:'Oswald' , sans-serif;
     font-style: Light;
-    font-size:  15px;
+    font-size:  17px;
     line-height:30px;
     color:#6C6B6B !important;
     letter-spacing: 10%;
@@ -225,7 +225,7 @@ span .img-profile{
     /* border: 1px solid black; */
     justify-content: end;
     align-items: end;
-    width:93%;
+    width:91%;
     margin-top:10px;
 }
 .sec1 p{
@@ -233,12 +233,12 @@ span .img-profile{
     margin:0;
     margin-top: 5px;
     font-family:'Nunito' , sans-serif;
-    font-style: Bold;
-    font-size:  15px;
+    font-style: "Bold";
+    font-size:  16px;
     line-height:30px;
     letter-spacing: 1px;
     color:#6C6B6B;
-    font-weight: 700;
+    font-weight: 600;
 }
 .body2 .sec2{
     display: flex;
@@ -371,7 +371,7 @@ span .img-profile{
 }
 
 .title,.title2, .title3, .title4{
-    font-family:'Poppins' , sans-serif;
+    font-family:'Nunito' , sans-serif;
     font-style: Regular;
     font-size:  14px;
     line-height:17px;
@@ -395,7 +395,7 @@ footer{
     /* padding-top:0.3rem; */
 }
 footer div > p{
-    font-family: 'PT', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size:  10px;
     line-height: 18px;
     color:#6C6B6B !important;
@@ -440,13 +440,24 @@ footer div p span a:hover{
         width:5rem;
         margin-left:0.3rem;
     }
-    
+    /* .nav-item{
+        background: #18E7CE;
+    } */
     .nav-link{
         font-size:  12px;
         text-align:left;
-        margin-left: 17px;
-        text-align: center;
+        /* margin-left: 17px; */
+        text-align: left;
+        /* background: #2B965C; */
+        width:100%;
     } 
+    .work{
+        margin-left:11px;
+    }
+    .last-link{
+        margin-left:5px;
+        margin-right: 0;
+    }
    
     .body{
         /* margin: 0; */
@@ -554,12 +565,28 @@ footer div p span a:hover{
         margin-left:0.3rem;
     }
 
-    .nav-link{
+    /* .nav-link{
         font-size:  12px;
         text-align:left;
         margin-left: 17px;
         text-align: center;
+    }  */
+
+    .nav-link{
+        font-size:  12px;
+        text-align:left;
+        margin-left: 17px;
+        text-align: left;
+        /* background: #2B965C; */
+        width:100%;
     } 
+    .work{
+        margin-left:24px;
+    }
+    .last-link{
+        margin-left:12px;
+        margin-right: 0;
+    }
         
     .body div{
         width:90%;
@@ -578,10 +605,12 @@ footer div p span a:hover{
         width:1fr;
         justify-content: center;
         align-items: center;
+        /* border:2px solid black; */
     }
     .sec1 p{
         font-size: 11px;
         text-align: center;
+        font-weight: 600;
     }
     .user-design .content4{
         width:90%;
