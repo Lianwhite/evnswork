@@ -93,29 +93,35 @@ span .img-profile{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    /* background:pink; */
+    /* background:pink;  */
     padding:0;
     /* margin-top:2rem; */
     
   }
 
-.icon-link{
+
+.icon-links{
     display: inline;
-    flex:0 0 4%;
+    /* flex:0 0 34%; */
     margin-top:10px;
     font-size:11px;
     padding:0;
     color:#EB3349;
+    /* background:red; */
+    height:25px;
+  }
+  .icon-link{
+      display: inline-block;
   }
 
   .icon-link:hover{
     opacity:0.6;
   }
   .icons{
-      color:#EB3349;
+      width:45%;
   }
   .first-icon{
-      margin-left:5px;
+      margin-left:3px;
   }
 
 .contents{
@@ -153,6 +159,7 @@ span .img-profile{
     margin-top:5px;
     color:#373030;
     flex:1;
+    text-align:left;
     letter-spacing:0.8px;
 }
 
@@ -189,8 +196,117 @@ footer div p span a:hover{
 }
 
 /* @media (min-width: 992px) { */
+@media only screen and (max-width: 488px) {
+    .navbar-nav {
+        display: flex !important;
+        flex-direction: row;
+        padding-left: 0;
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        list-style: none;
+        
+        }
+    #icons{
+        flex-direction: column;
+        margin:0;
+        align-items: center;
+    }
+    /* #icon p{
+        width:1fr;
+    }
+    */
+    
+    .logo{
+        width:5rem;
+        margin-left:1rem;
+    }
+    
+    .nav-link{
+        font-size:  14px;
+        text-align:left;
+        margin-left: 17px;
+    } 
+    .img-profile{
+        width:70%;
+        height:12rem;
+        border:10px solid rgba(245, 246, 248, 0.357);   
+    }
+    #icons{
+        flex-wrap: wrap;
+    }
+    
+    .icon-links{
+        display: inline;
+        margin:0;
+        padding:0;
+        }
+    
+    #content1{
+        margin-top:1rem;
+    } 
+    
+    #content2, #content3{
+        font-size:14px;
+    }
+    #content3{
+        text-align:left;
+    }
+    .bg-dark {
+        background: #373030 !important;
+    }
+} 
+@media only screen and (min-width: 490px) and (max-width: 992px) {
+    .navbar-nav {
+        display: flex !important;
+        flex-direction: row;
+        padding-left: 0;
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        list-style: none;
+        
+        }
+    
+    .logo{
+        width:5rem;
+        margin-left:1rem;
+    }
+    
+    .nav-link{
+        font-size:  14px;
+        text-align:left;
+        margin-left: 17px;
+    } 
+    .img-profile{
+        width:70%;
+        height:12rem;
+        border:10px solid rgba(245, 246, 248, 0.357);   
+    }
+    #icons{
+        flex-wrap: wrap;
+    }
+    
+    .icon-links{
+        display: inline;
+        /* flex:0 0 4%; */
+        margin-top:10px;
+        font-size:10px;
+        padding:0;
+      }
+    
+    #content1{
+        margin-top:1rem;
+    } 
+    
+    #content2, #content3{
+        font-size:15px;
+    }
+    .bg-dark {
+        background: #373030 !important;
+    }
+}
+ 
 
-@media only screen and (max-width: 999px) {
+/* @media only screen and (min-width: 411px) {
 
 .navbar-nav {
     display: flex !important;
@@ -239,6 +355,6 @@ footer div p span a:hover{
 .bg-dark {
     background: #373030 !important;
 }
-}
+} */
 
     
